@@ -6,24 +6,24 @@ Complete this table together **before anyone edits Python**. Every member signs 
 
 | Item | Trio decision |
 |---|---|
-| Team name | |
-| Member 1 | |
-| Member 2 | |
-| Member 3 | |
-| GitHub repository URL | |
-| Communication channel | |
-| Normal response time | |
+| Team name | happy |
+| Member 1 | 吳赫宥 |
+| Member 2 | 盧一君 |
+| Member 3 | 黃皆益 |
+| GitHub repository URL | https://github.com/aoscar0717-lang/lab03-snake-trio |
+| Communication channel | Line |
+| Normal response time | 3min |
 
 ## How we will work
 
 | Contract question | Our explicit agreement |
 |---|---|
-| When and where will we work together? | |
+| When and where will we work together? | 上課時間，教室內 |
 | How often will Driver, Navigator, and Tester/Recorder rotate? | After every completed TODO, unless we write another rule here: |
 | What must happen before a branch is merged? | At least one peer review and green public tests. Additional rule: |
 | How will we name branches and commits? | `todo-1-next-head`, `todo-2-food`, `todo-3-wall`, `todo-4-body`, `tests-and-debug`; truthful commit messages. Additional rule: |
 | How will we handle a disagreement? | Restate the contract, write one test, compare evidence, then ask a TA if still unresolved. Additional rule: |
-| What happens if someone will be late or absent? | |
+| What happens if someone will be late or absent? | 至少提早 2 小時在小組群組通知，出席團員將繼續進行角色輪替，缺席團員必須在下次上課前主動審閱 Git diff 並跟上進度。 |
 | When do we stop and ask the instructor/TA for help? | After 15 focused minutes, or immediately for setup/access problems. Additional rule: |
 | What L1 AI help is acceptable? | Explanation, hint, counterexample, test idea, traceback reading. Additional rule: |
 | What AI use is not acceptable? | Final function bodies, impersonating a member, silent copying, invented evidence. Additional rule: |
@@ -33,7 +33,7 @@ Complete this table together **before anyone edits Python**. Every member signs 
 
 | Gate | Driver | Navigator | Tester / Recorder |
 |---|---|---|---|
-| Setup + baseline | | | |
+| Setup + baseline | 吳赫宥 | 盧一君 | 黃皆益 |
 | TODO 1 | | | |
 | TODO 2 | | | |
 | TODO 3 | | | |
@@ -47,6 +47,6 @@ We agree to use the contract above and to revise it openly when the trio learns 
 
 | Member | Signature or typed name | Date |
 |---|---|---|
-| 1 | | |
-| 2 | | |
-| 3 | | |
+| 1 | 吳赫宥 | 8/12 |
+| 2 | 盧一君 | 8/12 |
+| 3 | 黃皆益 | 8/12 |
