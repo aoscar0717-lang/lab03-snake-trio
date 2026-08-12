@@ -34,12 +34,12 @@ Complete this table together **before anyone edits Python**. Every member signs 
 | Gate | Driver | Navigator | Tester / Recorder |
 |---|---|---|---|
 | Setup + baseline | 吳赫宥 | 盧一君 | 黃皆益 |
-| TODO 1 | | | |
-| TODO 2 | | | |
-| TODO 3 | | | |
-| TODO 4 | | | |
-| Student tests + debug | | | |
-| Playable demo | | | |
+| TODO 1 | 吳赫宥 | 盧一君 | 黃皆益 |
+| TODO 2 | 吳赫宥 | 盧一君 | 黃皆益 |
+| TODO 3 | 吳赫宥 | 盧一君 | 黃皆益 |
+| TODO 4 | 吳赫宥 | 盧一君 | 黃皆益 |
+| Student tests + debug | 吳赫宥 | 盧一君 | 黃皆益 |
+| Playable demo | 吳赫宥 | 盧一君 | 黃皆益 |
 
 ## Signatures
 

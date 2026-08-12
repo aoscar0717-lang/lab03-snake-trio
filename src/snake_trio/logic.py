@@ -50,7 +50,7 @@ def hit_wall(head: Cell, width: int, height: int, cell_size: int) -> bool:
     # TODO 3: check left, right, top, and bottom boundaries.
     x, y = head
     return x < 0 or x >= width or y < 0 or y >= height
-    raise NotImplementedError("TODO 3: check four wall boundaries")
+    # raise NotImplementedError("TODO 3: check four wall boundaries")
 
 
 def advance_body(body: list[Cell], new_head: Cell, grow: bool) -> list[Cell]:
@@ -66,4 +66,4 @@ def advance_body(body: list[Cell], new_head: Cell, grow: bool) -> list[Cell]:
     else:
         # 移動（不成長）：新蛇頭加上除了最後一節（尾巴）以外的舊身體
         return [new_head] + body[:-1]
-    raise NotImplementedError("TODO 4: create the next body")
+    # raise NotImplementedError("TODO 4: create the next body")
