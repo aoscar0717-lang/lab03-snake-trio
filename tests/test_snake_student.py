@@ -6,12 +6,13 @@ the original body list is unchanged.
 """
 
 
+"""
 def test_replace_with_a_meaningful_name() -> None:
     # Arrange: create the smallest state that proves one contract rule.
     # Act: call exactly one public function.
     # Assert: compare an observable result with your written expectation.
     raise NotImplementedError("Replace this scaffold with the trio's first test")
-
+"""
 def test_next_head_calculates_boundary_offset():
     # 準備 (Arrange)
     current_head = (0, 0)

@@ -23,7 +23,10 @@ def next_head(head: Cell, direction: Direction, cell_size: int) -> Cell:
     Hint: calculate x and y separately.  Do not mutate any input.
     """
     # TODO 1: replace this line with one return statement.
-    raise NotImplementedError("TODO 1: compute the next head")
+    x, y = head
+    dx, dy = direction
+    return (x + dx * cell_size, y + dy * cell_size)
+    # raise NotImplementedError("TODO 1: compute the next head")
 
 
 def ate_food(head: Cell, food: Cell) -> bool:
@@ -32,7 +35,8 @@ def ate_food(head: Cell, food: Cell) -> bool:
     Hint: both values use the same ``(x, y)`` tuple format.
     """
     # TODO 2: replace this line with one boolean return statement.
-    raise NotImplementedError("TODO 2: compare head and food")
+    return head == food
+    # raise NotImplementedError("TODO 2: compare head and food")
 
 
 def hit_wall(head: Cell, width: int, height: int, cell_size: int) -> bool:
