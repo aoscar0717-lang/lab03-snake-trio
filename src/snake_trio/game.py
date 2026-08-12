@@ -7,6 +7,7 @@ It translates keys, draws the board, and calls the four functions in logic.py.
 from __future__ import annotations
 
 import argparse
+import random
 from dataclasses import dataclass
 
 from .logic import Cell, Direction, advance_body, ate_food, hit_wall, next_head
@@ -21,11 +22,19 @@ START_DIRECTION: Direction = (1, 0)
 
 def choose_food(body: list[Cell]) -> Cell:
     """Choose the first free cell deterministically for reproducible play."""
-    for y in range(0, HEIGHT, CELL):
-        for x in range(0, WIDTH, CELL):
-            if (x, y) not in body:
-                return (x, y)
-    raise RuntimeError("board is full")
+    # 找出所有尚未被蛇身佔據的合法座標
+    free_cells = [
+        (x, y) 
+        for y in range(0, HEIGHT, CELL) 
+        for x in range(0, WIDTH, CELL) 
+        if (x, y) not in body
+    ]
+    
+    if not free_cells:
+        raise RuntimeError("board is full")
+        
+    # 從所有空位中隨機挑選一個作為食物
+    return random.choice(free_cells)
 
 
 @dataclass
