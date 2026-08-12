@@ -1,5 +1,8 @@
 # Lab 03 - Snake Game Trio Studio
 
+吳赫宥 盧一君 黃皆益
+
+
 ## What are you building?
 
 Your trio will turn four small Python contracts into a playable grid-based Snake Game. The Pygame window, keyboard adapter, drawing code, restart key, and deterministic food placement are supplied. Your job is deliberately smaller:
