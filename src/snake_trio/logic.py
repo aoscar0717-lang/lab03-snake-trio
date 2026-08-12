@@ -60,4 +60,10 @@ def advance_body(body: list[Cell], new_head: Cell, grow: bool) -> list[Cell]:
     keep every old segment.  Otherwise remove only the old tail.
     """
     # TODO 4: build and return a new list.  Never call body.insert/pop/remove.
+    if grow:
+        # 成長：新蛇頭加上完整的舊身體
+        return [new_head] + body
+    else:
+        # 移動（不成長）：新蛇頭加上除了最後一節（尾巴）以外的舊身體
+        return [new_head] + body[:-1]
     raise NotImplementedError("TODO 4: create the next body")
