@@ -23,7 +23,10 @@ def next_head(head: Cell, direction: Direction, cell_size: int) -> Cell:
     Hint: calculate x and y separately.  Do not mutate any input.
     """
     # TODO 1: replace this line with one return statement.
-    raise NotImplementedError("TODO 1: compute the next head")
+    x, y = head
+    dx, dy = direction
+    return (x + dx * cell_size, y + dy * cell_size)
+    # raise NotImplementedError("TODO 1: compute the next head")
 
 
 def ate_food(head: Cell, food: Cell) -> bool:
