@@ -13,6 +13,8 @@ def test_replace_with_a_meaningful_name() -> None:
     # Assert: compare an observable result with your written expectation.
     raise NotImplementedError("Replace this scaffold with the trio's first test")
 """
+from snake_trio.logic import next_head, ate_food, hit_wall, advance_body
+
 def test_next_head_calculates_boundary_offset():
     # 準備 (Arrange)
     current_head = (0, 0)
